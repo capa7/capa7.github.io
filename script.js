@@ -1,4 +1,3 @@
-// Inicializa AOS (animaciones)
 AOS.init({
   duration: 1000,
   easing: 'ease-in-out',
@@ -29,3 +28,13 @@ particlesJS("particles-js", {
     }
   }
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+  const audio = document.getElementById("bg-audio");
+  setTimeout(() => {
+    audio.play().catch(() => {
+      console.log("Autoplay bloqueado, el usuario debe interactuar primero.");
+    });
+  }, 1000);
+});
+

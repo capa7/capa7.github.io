@@ -13,13 +13,13 @@
 }
 
 body {
-  font-family: var(--fuente-cuerpo);
-  background: var(--color-fondo);
-  color: #333;
-  line-height: 1.6;
-  position: relative;
-  overflow-x: hidden;
+  background-image: url('textura.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+
 
 #particles-js {
   position: fixed;
@@ -144,4 +144,51 @@ footer {
 .btn-whatsapp:hover {
   background-color: #1ebd5b;
 }
+
+.decoracion {
+  position: absolute;
+  width: 120px;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.decoracion-superior {
+  top: 10px;
+  left: 10px;
+}
+
+.decoracion-inferior {
+  bottom: 10px;
+  right: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.nombres {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #6d4c41;
+}
+
+.detalles .evento, .padrinos, .galeria {
+  background: #fff8f0;
+  border: 1px solid #f3d1c4;
+}
+
+.subtitulo-fe {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: #8d6e63;
+  margin-top: 10px;
+}
+
+.imagen-central {
+  width: 120px;
+  margin-top: 20px;
+  animation: zoomIn 1s ease-in-out;
+}
+
 
