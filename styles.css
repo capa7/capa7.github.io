@@ -20,7 +20,6 @@ body {
 }
 
 
-
 #particles-js {
   position: fixed;
   width: 100%;
@@ -186,7 +185,7 @@ footer {
 }
 
 .imagen-central {
-  width: 120px;
+  width: 220px;
   margin-top: 20px;
   animation: zoomIn 1s ease-in-out;
 }
